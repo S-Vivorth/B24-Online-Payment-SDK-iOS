@@ -1,0 +1,6 @@
+framework module Pods_bill24SdkSampleAppTests {
+  umbrella header "Pods-bill24SdkSampleAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

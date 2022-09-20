@@ -1,0 +1,906 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47800E03410B372129841E3A /* Pods_bill24SdkSampleAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4972CC9A9791409DDFD7018C /* Pods_bill24SdkSampleAppTests.framework */; };
+		919AE660F465D9A19C3A5D16 /* Pods_bill24SdkSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77ABE9401F968B6595818E35 /* Pods_bill24SdkSampleApp.framework */; };
+		A57D1E219B4C69DA93D4A946 /* Pods_bill24SdkSampleApp_bill24SdkSampleAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2ABDEAB9A5D43176FF77F8 /* Pods_bill24SdkSampleApp_bill24SdkSampleAppUITests.framework */; };
+		B199477527548C2D008491AD /* paymentSucceed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B199477427548C2D008491AD /* paymentSucceed.storyboard */; };
+		B199477727548C3C008491AD /* paymentSucceed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B199477627548C3C008491AD /* paymentSucceed.swift */; };
+		B1BEB9D028D96C2B007339EB /* bill24Sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BEB9CD28D96C26007339EB /* bill24Sdk.framework */; };
+		B1BEB9D128D96C2B007339EB /* bill24Sdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1BEB9CD28D96C26007339EB /* bill24Sdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B1C9CCAC275080F10059FCD6 /* payLater.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C9CCAB275080F10059FCD6 /* payLater.swift */; };
+		B1C9CCAE275080FF0059FCD6 /* payLater.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C9CCAD275080FF0059FCD6 /* payLater.storyboard */; };
+		B1E0510927324F0400F75E87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E0510827324F0400F75E87 /* AppDelegate.swift */; };
+		B1E0510B27324F0400F75E87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E0510A27324F0400F75E87 /* SceneDelegate.swift */; };
+		B1E0510D27324F0400F75E87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E0510C27324F0400F75E87 /* ViewController.swift */; };
+		B1E0511027324F0400F75E87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E0510E27324F0400F75E87 /* Main.storyboard */; };
+		B1E0511227324F0500F75E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E0511127324F0500F75E87 /* Assets.xcassets */; };
+		B1E0511527324F0500F75E87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E0511327324F0500F75E87 /* LaunchScreen.storyboard */; };
+		B1E0512027324F0500F75E87 /* bill24SdkSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E0511F27324F0500F75E87 /* bill24SdkSampleAppTests.swift */; };
+		B1E0512A27324F0500F75E87 /* bill24SdkSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E0512927324F0500F75E87 /* bill24SdkSampleAppUITests.swift */; };
+		B1E0512C27324F0500F75E87 /* bill24SdkSampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E0512B27324F0500F75E87 /* bill24SdkSampleAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1BEB9CC28D96C26007339EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1BEB9C728D96C26007339EB /* bill24Sdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B1E050A42732441300F75E87;
+			remoteInfo = bill24Sdk;
+		};
+		B1BEB9CE28D96C26007339EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1BEB9C728D96C26007339EB /* bill24Sdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B1E050AC2732441300F75E87;
+			remoteInfo = bill24SdkTests;
+		};
+		B1E0511C27324F0500F75E87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1E050FD27324F0400F75E87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1E0510427324F0400F75E87;
+			remoteInfo = bill24SdkSampleApp;
+		};
+		B1E0512627324F0500F75E87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1E050FD27324F0400F75E87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1E0510427324F0400F75E87;
+			remoteInfo = bill24SdkSampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B1BC9CF827ABDC71004674BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B1BEB9D128D96C2B007339EB /* bill24Sdk.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2939B28D5F37489852AE7682 /* Pods-bill24SdkSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bill24SdkSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-bill24SdkSampleApp/Pods-bill24SdkSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		486CA84AEAC64A820ADD440E /* Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests.release.xcconfig"; path = "Target Support Files/Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests/Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4972CC9A9791409DDFD7018C /* Pods_bill24SdkSampleAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bill24SdkSampleAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BEA0451BB9B1CC7C9066DE /* Pods-bill24SdkSampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bill24SdkSampleAppTests.release.xcconfig"; path = "Target Support Files/Pods-bill24SdkSampleAppTests/Pods-bill24SdkSampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		77ABE9401F968B6595818E35 /* Pods_bill24SdkSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bill24SdkSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9347B58BBCAC1FDE5E985A51 /* Pods-bill24SdkSampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bill24SdkSampleAppTests.debug.xcconfig"; path = "Target Support Files/Pods-bill24SdkSampleAppTests/Pods-bill24SdkSampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		987461C3040A5D2C3170F50D /* Pods-bill24SdkSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bill24SdkSampleApp.release.xcconfig"; path = "Target Support Files/Pods-bill24SdkSampleApp/Pods-bill24SdkSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		AA80A0828BF756D10744C298 /* Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests/Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B199477427548C2D008491AD /* paymentSucceed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = paymentSucceed.storyboard; sourceTree = "<group>"; };
+		B199477627548C3C008491AD /* paymentSucceed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymentSucceed.swift; sourceTree = "<group>"; };
+		B1BEB9C728D96C26007339EB /* bill24Sdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = bill24Sdk.xcodeproj; path = bill24Sdk/bill24Sdk.xcodeproj; sourceTree = "<group>"; };
+		B1C9CCAB275080F10059FCD6 /* payLater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payLater.swift; sourceTree = "<group>"; };
+		B1C9CCAD275080FF0059FCD6 /* payLater.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = payLater.storyboard; sourceTree = "<group>"; };
+		B1E0510527324F0400F75E87 /* bill24SdkSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bill24SdkSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E0510827324F0400F75E87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1E0510A27324F0400F75E87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B1E0510C27324F0400F75E87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1E0510F27324F0400F75E87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1E0511127324F0500F75E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1E0511427324F0500F75E87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1E0511627324F0500F75E87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1E0511B27324F0500F75E87 /* bill24SdkSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bill24SdkSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E0511F27324F0500F75E87 /* bill24SdkSampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bill24SdkSampleAppTests.swift; sourceTree = "<group>"; };
+		B1E0512527324F0500F75E87 /* bill24SdkSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bill24SdkSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E0512927324F0500F75E87 /* bill24SdkSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bill24SdkSampleAppUITests.swift; sourceTree = "<group>"; };
+		B1E0512B27324F0500F75E87 /* bill24SdkSampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bill24SdkSampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC2ABDEAB9A5D43176FF77F8 /* Pods_bill24SdkSampleApp_bill24SdkSampleAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bill24SdkSampleApp_bill24SdkSampleAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1E0510227324F0400F75E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BEB9D028D96C2B007339EB /* bill24Sdk.framework in Frameworks */,
+				919AE660F465D9A19C3A5D16 /* Pods_bill24SdkSampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E0511827324F0500F75E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47800E03410B372129841E3A /* Pods_bill24SdkSampleAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E0512227324F0500F75E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57D1E219B4C69DA93D4A946 /* Pods_bill24SdkSampleApp_bill24SdkSampleAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C669ED4BDBA6BD3B868D836 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2939B28D5F37489852AE7682 /* Pods-bill24SdkSampleApp.debug.xcconfig */,
+				987461C3040A5D2C3170F50D /* Pods-bill24SdkSampleApp.release.xcconfig */,
+				AA80A0828BF756D10744C298 /* Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests.debug.xcconfig */,
+				486CA84AEAC64A820ADD440E /* Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests.release.xcconfig */,
+				9347B58BBCAC1FDE5E985A51 /* Pods-bill24SdkSampleAppTests.debug.xcconfig */,
+				72BEA0451BB9B1CC7C9066DE /* Pods-bill24SdkSampleAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B1BEB9C828D96C26007339EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1BEB9CD28D96C26007339EB /* bill24Sdk.framework */,
+				B1BEB9CF28D96C26007339EB /* bill24SdkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1E050FC27324F0400F75E87 = {
+			isa = PBXGroup;
+			children = (
+				B1BEB9C728D96C26007339EB /* bill24Sdk.xcodeproj */,
+				B1E0510727324F0400F75E87 /* bill24SdkSampleApp */,
+				B1E0511E27324F0500F75E87 /* bill24SdkSampleAppTests */,
+				B1E0512827324F0500F75E87 /* bill24SdkSampleAppUITests */,
+				B1E0510627324F0400F75E87 /* Products */,
+				8C669ED4BDBA6BD3B868D836 /* Pods */,
+				BF37FE312B3AAC3B65DFB26A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1E0510627324F0400F75E87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1E0510527324F0400F75E87 /* bill24SdkSampleApp.app */,
+				B1E0511B27324F0500F75E87 /* bill24SdkSampleAppTests.xctest */,
+				B1E0512527324F0500F75E87 /* bill24SdkSampleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1E0510727324F0400F75E87 /* bill24SdkSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				B1E0510827324F0400F75E87 /* AppDelegate.swift */,
+				B1E0510A27324F0400F75E87 /* SceneDelegate.swift */,
+				B1E0510C27324F0400F75E87 /* ViewController.swift */,
+				B1E0510E27324F0400F75E87 /* Main.storyboard */,
+				B1E0511127324F0500F75E87 /* Assets.xcassets */,
+				B1E0511327324F0500F75E87 /* LaunchScreen.storyboard */,
+				B1E0511627324F0500F75E87 /* Info.plist */,
+				B1C9CCAB275080F10059FCD6 /* payLater.swift */,
+				B1C9CCAD275080FF0059FCD6 /* payLater.storyboard */,
+				B199477427548C2D008491AD /* paymentSucceed.storyboard */,
+				B199477627548C3C008491AD /* paymentSucceed.swift */,
+			);
+			path = bill24SdkSampleApp;
+			sourceTree = "<group>";
+		};
+		B1E0511E27324F0500F75E87 /* bill24SdkSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1E0511F27324F0500F75E87 /* bill24SdkSampleAppTests.swift */,
+			);
+			path = bill24SdkSampleAppTests;
+			sourceTree = "<group>";
+		};
+		B1E0512827324F0500F75E87 /* bill24SdkSampleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1E0512927324F0500F75E87 /* bill24SdkSampleAppUITests.swift */,
+				B1E0512B27324F0500F75E87 /* bill24SdkSampleAppUITestsLaunchTests.swift */,
+			);
+			path = bill24SdkSampleAppUITests;
+			sourceTree = "<group>";
+		};
+		BF37FE312B3AAC3B65DFB26A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77ABE9401F968B6595818E35 /* Pods_bill24SdkSampleApp.framework */,
+				CC2ABDEAB9A5D43176FF77F8 /* Pods_bill24SdkSampleApp_bill24SdkSampleAppUITests.framework */,
+				4972CC9A9791409DDFD7018C /* Pods_bill24SdkSampleAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1E0510427324F0400F75E87 /* bill24SdkSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E0512F27324F0500F75E87 /* Build configuration list for PBXNativeTarget "bill24SdkSampleApp" */;
+			buildPhases = (
+				E3FC16ABC0F1878A7EA06AB1 /* [CP] Check Pods Manifest.lock */,
+				B1E0510127324F0400F75E87 /* Sources */,
+				B1E0510227324F0400F75E87 /* Frameworks */,
+				B1E0510327324F0400F75E87 /* Resources */,
+				B1BC9CF827ABDC71004674BD /* Embed Frameworks */,
+				A7A38E176BA6AA52F646B849 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bill24SdkSampleApp;
+			productName = bill24SdkSampleApp;
+			productReference = B1E0510527324F0400F75E87 /* bill24SdkSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1E0511A27324F0500F75E87 /* bill24SdkSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E0513227324F0500F75E87 /* Build configuration list for PBXNativeTarget "bill24SdkSampleAppTests" */;
+			buildPhases = (
+				D424B56670F35A4D72446698 /* [CP] Check Pods Manifest.lock */,
+				B1E0511727324F0500F75E87 /* Sources */,
+				B1E0511827324F0500F75E87 /* Frameworks */,
+				B1E0511927324F0500F75E87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1E0511D27324F0500F75E87 /* PBXTargetDependency */,
+			);
+			name = bill24SdkSampleAppTests;
+			productName = bill24SdkSampleAppTests;
+			productReference = B1E0511B27324F0500F75E87 /* bill24SdkSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1E0512427324F0500F75E87 /* bill24SdkSampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E0513527324F0500F75E87 /* Build configuration list for PBXNativeTarget "bill24SdkSampleAppUITests" */;
+			buildPhases = (
+				6A27130D1897991D7F1BE837 /* [CP] Check Pods Manifest.lock */,
+				B1E0512127324F0500F75E87 /* Sources */,
+				B1E0512227324F0500F75E87 /* Frameworks */,
+				B1E0512327324F0500F75E87 /* Resources */,
+				E4BEC604B720909C77C371DB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1E0512727324F0500F75E87 /* PBXTargetDependency */,
+			);
+			name = bill24SdkSampleAppUITests;
+			productName = bill24SdkSampleAppUITests;
+			productReference = B1E0512527324F0500F75E87 /* bill24SdkSampleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1E050FD27324F0400F75E87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					B1E0510427324F0400F75E87 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					B1E0511A27324F0500F75E87 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = B1E0510427324F0400F75E87;
+					};
+					B1E0512427324F0500F75E87 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = B1E0510427324F0400F75E87;
+					};
+				};
+			};
+			buildConfigurationList = B1E0510027324F0400F75E87 /* Build configuration list for PBXProject "bill24SdkSampleApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1E050FC27324F0400F75E87;
+			productRefGroup = B1E0510627324F0400F75E87 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B1BEB9C828D96C26007339EB /* Products */;
+					ProjectRef = B1BEB9C728D96C26007339EB /* bill24Sdk.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B1E0510427324F0400F75E87 /* bill24SdkSampleApp */,
+				B1E0511A27324F0500F75E87 /* bill24SdkSampleAppTests */,
+				B1E0512427324F0500F75E87 /* bill24SdkSampleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B1BEB9CD28D96C26007339EB /* bill24Sdk.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = bill24Sdk.framework;
+			remoteRef = B1BEB9CC28D96C26007339EB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B1BEB9CF28D96C26007339EB /* bill24SdkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = bill24SdkTests.xctest;
+			remoteRef = B1BEB9CE28D96C26007339EB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1E0510327324F0400F75E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B199477527548C2D008491AD /* paymentSucceed.storyboard in Resources */,
+				B1C9CCAE275080FF0059FCD6 /* payLater.storyboard in Resources */,
+				B1E0511527324F0500F75E87 /* LaunchScreen.storyboard in Resources */,
+				B1E0511227324F0500F75E87 /* Assets.xcassets in Resources */,
+				B1E0511027324F0400F75E87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E0511927324F0500F75E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E0512327324F0500F75E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A27130D1897991D7F1BE837 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7A38E176BA6AA52F646B849 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bill24SdkSampleApp/Pods-bill24SdkSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bill24SdkSampleApp/Pods-bill24SdkSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bill24SdkSampleApp/Pods-bill24SdkSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D424B56670F35A4D72446698 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bill24SdkSampleAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3FC16ABC0F1878A7EA06AB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bill24SdkSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4BEC604B720909C77C371DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests/Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests/Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests/Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1E0510127324F0400F75E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B199477727548C3C008491AD /* paymentSucceed.swift in Sources */,
+				B1E0510D27324F0400F75E87 /* ViewController.swift in Sources */,
+				B1E0510927324F0400F75E87 /* AppDelegate.swift in Sources */,
+				B1E0510B27324F0400F75E87 /* SceneDelegate.swift in Sources */,
+				B1C9CCAC275080F10059FCD6 /* payLater.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E0511727324F0500F75E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E0512027324F0500F75E87 /* bill24SdkSampleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E0512127324F0500F75E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E0512C27324F0500F75E87 /* bill24SdkSampleAppUITestsLaunchTests.swift in Sources */,
+				B1E0512A27324F0500F75E87 /* bill24SdkSampleAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1E0511D27324F0500F75E87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1E0510427324F0400F75E87 /* bill24SdkSampleApp */;
+			targetProxy = B1E0511C27324F0500F75E87 /* PBXContainerItemProxy */;
+		};
+		B1E0512727324F0500F75E87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1E0510427324F0400F75E87 /* bill24SdkSampleApp */;
+			targetProxy = B1E0512627324F0500F75E87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1E0510E27324F0400F75E87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1E0510F27324F0400F75E87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1E0511327324F0500F75E87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1E0511427324F0500F75E87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1E0512D27324F0500F75E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "<key>NSAppTransportSecurity</key>\n    <dict>\n        <!--Not a recommended way, there are better solutions available-->\n        <key>NSAllowsArbitraryLoads</key>\n        <true/>\n    </dict>";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1E0512E27324F0500F75E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1E0513027324F0500F75E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2939B28D5F37489852AE7682 /* Pods-bill24SdkSampleApp.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 936EARQLW8;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/bill24SdkSampleApp",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bill24SdkSampleApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "bill24 SDK";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = bill24.bill24SdkSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		B1E0513127324F0500F75E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987461C3040A5D2C3170F50D /* Pods-bill24SdkSampleApp.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 936EARQLW8;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/bill24SdkSampleApp",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bill24SdkSampleApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "bill24 SDK";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = bill24.bill24SdkSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+		B1E0513327324F0500F75E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9347B58BBCAC1FDE5E985A51 /* Pods-bill24SdkSampleAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66C5668CGN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bill24.bill24SdkSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bill24SdkSampleApp.app/bill24SdkSampleApp";
+			};
+			name = Debug;
+		};
+		B1E0513427324F0500F75E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72BEA0451BB9B1CC7C9066DE /* Pods-bill24SdkSampleAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66C5668CGN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bill24.bill24SdkSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bill24SdkSampleApp.app/bill24SdkSampleApp";
+			};
+			name = Release;
+		};
+		B1E0513627324F0500F75E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA80A0828BF756D10744C298 /* Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66C5668CGN;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bill24.bill24SdkSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bill24SdkSampleApp;
+			};
+			name = Debug;
+		};
+		B1E0513727324F0500F75E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486CA84AEAC64A820ADD440E /* Pods-bill24SdkSampleApp-bill24SdkSampleAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66C5668CGN;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bill24.bill24SdkSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bill24SdkSampleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1E0510027324F0400F75E87 /* Build configuration list for PBXProject "bill24SdkSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E0512D27324F0500F75E87 /* Debug */,
+				B1E0512E27324F0500F75E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E0512F27324F0500F75E87 /* Build configuration list for PBXNativeTarget "bill24SdkSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E0513027324F0500F75E87 /* Debug */,
+				B1E0513127324F0500F75E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E0513227324F0500F75E87 /* Build configuration list for PBXNativeTarget "bill24SdkSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E0513327324F0500F75E87 /* Debug */,
+				B1E0513427324F0500F75E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E0513527324F0500F75E87 /* Build configuration list for PBXNativeTarget "bill24SdkSampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E0513627324F0500F75E87 /* Debug */,
+				B1E0513727324F0500F75E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1E050FD27324F0400F75E87 /* Project object */;
+}

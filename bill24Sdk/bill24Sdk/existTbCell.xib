@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="existcell" rowHeight="81" id="yM9-1f-bm8" customClass="existTbCell" customModule="bill24Sdk" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="498" height="81"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="yM9-1f-bm8" id="Gw9-qR-iXA">
+                <rect key="frame" x="0.0" y="0.0" width="498" height="81"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v6a-dN-fMe">
+                        <rect key="frame" x="0.0" y="0.0" width="498" height="60"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="unicorn.png" translatesAutoresizingMaskIntoConstraints="NO" id="0hl-AN-awz">
+                                <rect key="frame" x="-48" y="-62" width="50" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.25 USD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="3" translatesAutoresizingMaskIntoConstraints="NO" id="FNx-Do-x9t">
+                                <rect key="frame" x="223" y="13" width="217" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="217" id="Ms4-h8-aGS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Acleda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nLm-OX-jqo">
+                                <rect key="frame" x="82" y="13" width="141" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="oSo-5O-qmg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="acleda" translatesAutoresizingMaskIntoConstraints="NO" id="PZV-n0-D0m">
+                                <rect key="frame" x="22" y="13" width="40" height="40"/>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="JsH-d0-tvw"/>
+                                    <constraint firstAttribute="width" constant="40" id="daZ-VX-GGu"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="defaultcheckbox" translatesAutoresizingMaskIntoConstraints="NO" id="9gH-xB-Q5a">
+                                <rect key="frame" x="454" y="23" width="20" height="20"/>
+                                <color key="tintColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="Umy-8P-ZTR"/>
+                                    <constraint firstAttribute="height" constant="20" id="VAo-Ha-my8"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="nLm-OX-jqo" firstAttribute="leading" secondItem="PZV-n0-D0m" secondAttribute="trailing" constant="20" id="5GO-GK-1h9"/>
+                            <constraint firstAttribute="trailing" secondItem="9gH-xB-Q5a" secondAttribute="trailing" constant="24" id="GRa-55-dou"/>
+                            <constraint firstAttribute="height" constant="60" id="HHy-7n-w4M"/>
+                            <constraint firstAttribute="bottom" secondItem="PZV-n0-D0m" secondAttribute="bottom" constant="7" id="JQG-pR-5CQ"/>
+                            <constraint firstItem="PZV-n0-D0m" firstAttribute="top" secondItem="v6a-dN-fMe" secondAttribute="top" constant="13" id="KnM-rj-5wp"/>
+                            <constraint firstItem="PZV-n0-D0m" firstAttribute="leading" secondItem="v6a-dN-fMe" secondAttribute="leading" constant="22" id="O2K-O5-oRp"/>
+                            <constraint firstItem="9gH-xB-Q5a" firstAttribute="top" secondItem="v6a-dN-fMe" secondAttribute="top" constant="23" id="VYH-eD-KdF"/>
+                            <constraint firstAttribute="bottom" secondItem="FNx-Do-x9t" secondAttribute="bottom" constant="7" id="bCU-MI-qTg"/>
+                            <constraint firstItem="FNx-Do-x9t" firstAttribute="leading" secondItem="nLm-OX-jqo" secondAttribute="trailing" id="fQc-8o-9eO"/>
+                            <constraint firstItem="FNx-Do-x9t" firstAttribute="top" secondItem="v6a-dN-fMe" secondAttribute="top" constant="13" id="h0U-OK-af6"/>
+                            <constraint firstItem="9gH-xB-Q5a" firstAttribute="leading" secondItem="FNx-Do-x9t" secondAttribute="trailing" constant="14" id="iUp-Qt-ccS"/>
+                            <constraint firstItem="nLm-OX-jqo" firstAttribute="top" secondItem="v6a-dN-fMe" secondAttribute="top" constant="13" id="iiC-qD-3ME"/>
+                            <constraint firstAttribute="bottom" secondItem="nLm-OX-jqo" secondAttribute="bottom" constant="7" id="lI3-VG-6rF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="v6a-dN-fMe" firstAttribute="top" secondItem="Gw9-qR-iXA" secondAttribute="top" id="5z1-QT-p0Z"/>
+                    <constraint firstAttribute="bottom" secondItem="v6a-dN-fMe" secondAttribute="bottom" id="JDy-AI-Vpr"/>
+                    <constraint firstAttribute="trailing" secondItem="v6a-dN-fMe" secondAttribute="trailing" id="NnL-P6-5Gg"/>
+                    <constraint firstItem="v6a-dN-fMe" firstAttribute="leading" secondItem="Gw9-qR-iXA" secondAttribute="leading" id="jwp-tg-JiV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="Dc7-qF-vzf"/>
+            <connections>
+                <outlet property="exBankImg" destination="PZV-n0-D0m" id="v6O-Ay-V5y"/>
+                <outlet property="exBankName" destination="nLm-OX-jqo" id="5Zl-Z2-H1W"/>
+                <outlet property="exBankNumber" destination="FNx-Do-x9t" id="RLz-Ll-Jq2"/>
+                <outlet property="exCellView" destination="v6a-dN-fMe" id="O6h-ve-Sse"/>
+                <outlet property="exCheckBox" destination="9gH-xB-Q5a" id="zEQ-ya-oZi"/>
+            </connections>
+            <point key="canvasLocation" x="-3952.1739130434785" y="-61.272321428571423"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="acleda" width="512" height="512"/>
+        <image name="defaultcheckbox" width="981" height="981"/>
+        <image name="unicorn.png" width="200" height="205"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
